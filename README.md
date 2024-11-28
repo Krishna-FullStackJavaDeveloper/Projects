@@ -1,2 +1,3 @@
-# Projects
-Java Spring boot projects
+# TicTacToe
+Java TicTacToe project 
+With GUI and Without GUI.
