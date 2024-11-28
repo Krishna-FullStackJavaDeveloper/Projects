@@ -11,12 +11,12 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-public class tttGame extends JPanel {
+public class ticTacToeGame extends JPanel {
 	
 	char playerMark = 'X';
 	JButton[] buttons = new JButton[9];
 	
-	public tttGame() {
+	public ticTacToeGame() {
 		setLayout(new GridLayout(3,3));
 		initializeButtons();
 	}
@@ -168,7 +168,7 @@ public class tttGame extends JPanel {
 	public static void main(String[] args) {
 		JFrame window = new JFrame("Tic Tac Toe by Krishna");
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		window.getContentPane().add(new tttGame()); // adds the data
+		window.getContentPane().add(new ticTacToeGame()); // adds the data
 		window.setBounds(500,500,500,500); //area
 		window.setVisible(true); // show the window
 		window.setLocationRelativeTo(null); //create the window.
