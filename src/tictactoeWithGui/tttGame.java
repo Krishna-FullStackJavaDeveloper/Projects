@@ -1,4 +1,4 @@
-package tictactoe.gui;
+package tictactoeWithGui;
 
 import java.awt.Color;
 import java.awt.GridLayout;

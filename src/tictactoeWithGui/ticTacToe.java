@@ -1,4 +1,4 @@
-package tictactoe.gui;
+package tictactoeWithGui;
 
 public class ticTacToe {
 	public ticTacToe() {
